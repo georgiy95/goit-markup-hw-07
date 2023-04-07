@@ -23,7 +23,7 @@
     <header class="header">
       <div class="container header-cntnr">
         <nav class="header-cntnr">
-          <a class="header-logo link" href="./index.html"
+          <a class="header-logo link tablet" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
           >
           <ul class="hdr list">
@@ -41,14 +41,14 @@
           </ul>
         </nav>
 
-        <button type="button" class="button-mobile-menu">
+        <button class="button-mobile-menu" type="button" data-menu-open>
           <svg width="32" height="22" class="button-mobile-menu-icon">
             <use href="./images/modal-form.svg#icon-burger"></use>
           </svg>
         </button>
 
         <address class="address-list">
-          <ul class="address list">
+          <ul class="address list nav-laptop">
             <li class="address-item">
               <a href="mailto:info@devstudio.com" class="address link"
                 >info@devstudio.com</a
@@ -61,6 +61,78 @@
             </li>
           </ul>
         </address>
+      </div>
+      <!------------------------------------------------------ mobile-menu ---------------------------------------------------->
+      <div class="mobile-menu-container is-hidden" data-menu>
+        <div>
+          <button class="mobile-close-btn" data-menu-close type="button">
+            <svg width="8" height="8" class="mobile-close-btn-icon">
+              <use
+                href="./images/symbol-defs (1).svg#icon-close-black-18dp-2-1"
+              ></use>
+            </svg>
+          </button>
+          <ul class="mobile-menu-list">
+            <li class="mobile-menu-studio">
+              <a class="mobile-menu-studio link st" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li class="mobile-menu-studio">
+              <a class="mobile-menu-studio link" href="./portfolio.html"
+                >Portfolio</a
+              >
+            </li>
+            <li class="mobile-menu-studio">
+              <a class="mobile-menu-studio link" href="">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul class="mob-menu-item">
+            <li>
+              <a href="tel:+110001111111" class="mobile-menu-link-tel"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+
+            <li class="ema-text-style">
+              <a href="mailto:info@devstudio.com" class="mobile-menu-link-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="mobile-soc-list">
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href=""
+                ><svg width="16" height="16" class="mobile-soc-icon">
+                  <use href="./images/symbol-defs (1).svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href=""
+                ><svg width="16" height="16" class="mobile-soc-icon">
+                  <use href="./images/symbol-defs (1).svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href=""
+                ><svg width="16" height="16" class="mobile-soc-icon">
+                  <use href="./images/symbol-defs (1).svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="mobile-soc-item">
+              <a class="mobile-soc-link" href=""
+                ><svg width="16" height="16" class="mobile-soc-icon">
+                  <use href="./images/symbol-defs (1).svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
@@ -595,5 +667,6 @@
       </div>
     </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
