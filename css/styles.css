@@ -54,13 +54,13 @@ img {
   display: block;
 }
 
-.container {
+/* .container {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
 .link {
   text-decoration: none;
@@ -71,8 +71,63 @@ ul {
 }
 
 /* ----------------------------------------------------------------------Хедер--------------------------------------------------------------------- */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+}
 
-.header {
+.button-mobile-menu {
+  stroke: var(--dark-color);
+}
+
+@media screen and (max-width: 768px) {
+  .header-studio {
+    display: none;
+  }
+  .address-list {
+    display: none;
+  }
+}
+
+.container.header-cntnr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 22px;
+}
+
+.button-mobile-menu {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  line-height: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .button-mobile-menu {
+    display: none;
+  }
+}
+
+/* .header {
   list-style: none;
   border-bottom: 1px solid var(--accent-color);
 }
@@ -163,7 +218,7 @@ ul {
 .address.list {
   display: flex;
   gap: 24px;
-}
+} */
 
 .header-logo.link {
   padding-right: 76px;
