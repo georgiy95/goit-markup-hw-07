@@ -139,17 +139,17 @@
     <main>
       <!-- 1 секція -->
 
-      <!-- <section class="heading">
-        <div class="container">
+      <section class="heading">
+        <div class="container bg-section">
           <h1 class="heading-caption">Effective Solutions for Your Business</h1>
           <button class="heading-btn" type="button" data-modal-open>
             Order Service
           </button>
         </div>
-      </section> -->
+      </section>
 
       <!-- 2 секція -->
-      <!-- <section class="hero">
+      <section class="hero">
         <div class="container">
           <h2 class="visually-hidden">features</h2>
           <ul class="holder list">
@@ -213,21 +213,40 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
       <!-- 3 секція -->
-      <!-- <section class="page">
+      <section class="page">
         <div class="container">
           <h2 class="headline">What are we doing</h2>
           <ul class="main-photo list">
             <li>
-              <img src="./images/photo1.jpg" alt="computer" width="360" />
+              <img
+                srcset="./images/photo1.jpg 1x, ./images/photo1-2x.jpg 2x"
+                src="./images/photo1.jpg"
+                alt="computer"
+                width="360"
+              />
             </li>
-            <li><img src="./images/photo2.jpg" alt="website" width="360" /></li>
-            <li><img src="./images/photo3.jpg" alt="mobile" width="360" /></li>
+            <li>
+              <img
+                srcset="./images/photo2.jpg 1x, ./images/photo2-2x.jpg 2x"
+                src="./images/photo2.jpg"
+                alt="website"
+                width="360"
+              />
+            </li>
+            <li>
+              <img
+                srcset="./images/photo3.jpg 1x, ./images/photo3-2x.jpg 2x"
+                src="./images/photo3.jpg"
+                alt="mobile"
+                width="360"
+              />
+            </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- 4 секція -->
 
       <!-- <section class="section-background">
@@ -236,6 +255,7 @@
           <ul class="main-persone list">
             <li class="persone-border">
               <img
+                srcset="./images/persone1.jpg 1x, ./images/persone1-2x.jpg 2x"
                 class="persone-photo"
                 src="./images/persone1.jpg"
                 alt="persone1"
@@ -286,6 +306,7 @@
             </li>
             <li class="persone-border">
               <img
+                srcset="./images/persone2.jpg 1x, ./images/persone2-2x.jpg 2x"
                 class="persone-photo"
                 src="./images/persone2.jpg"
                 alt="persone2"
@@ -336,6 +357,7 @@
             </li>
             <li class="persone-border">
               <img
+                srcset="./images/persone3.jpg 1x, ./images/persone3-2x.jpg 2x"
                 class="persone-photo"
                 src="./images/persone3.jpg"
                 alt="persone3"
@@ -386,6 +408,7 @@
             </li>
             <li class="persone-border">
               <img
+                srcset="./images/persone4.jpg 1x, ./images/persone4-2x.jpg 2x"
                 class="persone-photo"
                 src="./images/persone4.jpg"
                 alt="persone4"
@@ -581,7 +604,7 @@
       </div>
     </footer> -->
     <!------------------------------------------------------------------ Модальне вікно ---------------------------------------------------------->
-    <!-- <div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg width="8" height="8" class="modal-close-btn-icon">
@@ -663,7 +686,7 @@
           <button type="submit" class="modal-form-submit">Send</button>
         </form>
       </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
     <script src="./js/mobile-menu.js"></script>
   </body>
