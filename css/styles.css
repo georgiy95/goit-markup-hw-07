@@ -1052,7 +1052,6 @@ calc((100% - 24px) / 2); */
   background-color: var(--dark-color);
   padding-top: 100px;
   padding-bottom: 100px;
-  display: flex;
 }
 
 .footer-logo {
