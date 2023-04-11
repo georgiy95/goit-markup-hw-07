@@ -153,7 +153,7 @@ ul {
 
 @media screen and (min-width: 1200px) {
   .header-logo.link.tablet {
-    padding-right: 75px;
+    margin-right: 75px;
   }
 }
 
@@ -1074,6 +1074,12 @@ ul {
 @media screen and (min-width: 768px) {
   .mdl-frm {
     display: flex;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .mdl-frm {
     gap: 24px;
   }
 }
