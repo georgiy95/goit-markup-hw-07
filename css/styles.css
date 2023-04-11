@@ -1027,9 +1027,9 @@ ul {
   }
 }
 @media screen and (min-width: 1200px) {
-  .ftr {
+  /* .ftr {
     margin-right: 120px;
-  }
+  } */
 }
 @media screen and (min-width: 768px) {
   .ftr {
@@ -1220,7 +1220,7 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .ftr {
-    margin-right: 120px;
+    margin-right: 104px;
   }
   .footer-subscribe-form {
     margin-left: 80px;
@@ -1251,7 +1251,7 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .footer > .container {
-    padding-left: 0;
+    padding-left: 17px;
     padding-right: 0;
   }
 }
