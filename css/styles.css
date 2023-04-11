@@ -98,7 +98,7 @@ ul {
   stroke: var(--dark-color);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .header-studio {
     display: none;
   }
@@ -790,7 +790,7 @@ ul {
   border-radius: 0px 0px 4px 4px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .main-persone.list {
     display: flex;
     flex-direction: column;
@@ -865,7 +865,7 @@ ul {
     padding-bottom: 120px;
   }
 }
-
+/* -------------------------------------------------------------------------------- */
 @media screen and (min-width: 320px) {
   .customers-list {
     display: flex;
@@ -874,11 +874,23 @@ ul {
     justify-content: center;
     row-gap: 16px;
   }
-  .customers-item {
+  /* .customers-item {
     flex-basis: calc(100% / 2 - 16px);
-  }
+  } */
   .customers-link {
     width: 190px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .customers-item {
+    flex-basis: calc(100% / 3 - 3 * 24px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .customers-item {
+    flex-basis: calc(100% / 2 - 16px);
   }
 }
 
@@ -898,40 +910,26 @@ ul {
 }
 
 @media screen and (min-width: 768px) {
-  .customers-item {
-    flex-basis: calc(100% / 3 - 2 * 24px);
-  }
-}
-
-/* @media screen and (max-width: 320px) {
-  .customers-item {
-    flex-basis: calc(100% / 2 - 16px);
-  }
-} */
-
-@media screen and (min-width: 768px) {
   .customers-list {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 72px;
     flex-direction: row;
   }
-  /* .customers-link {
-    width: 168px;
-  } */
 }
 
 @media screen and (min-width: 1200px) {
   .customers-list {
     display: flex;
     justify-content: space-between;
-    gap: 24px;
+
     flex-direction: row;
     flex-wrap: nowrap;
   }
 }
+
+/* --------------------------------------------------------------------- */
 .customers-text {
   font-weight: 700;
   font-size: 36px;
@@ -1022,11 +1020,6 @@ ul {
     margin-right: 120px;
   }
 }
-
-/* .ftr {
-  width: 264px;
-  margin-right: 120px;
-} */
 
 @media screen and (min-width: 1200px) {
   .ftr {
@@ -1176,7 +1169,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer-text {
     margin-right: auto;
     margin-left: auto;
@@ -1252,8 +1245,8 @@ ul {
 
 @media screen and (min-width: 768px) {
   .footer > .container {
-    padding-left: 75px;
-    padding-right: 75px;
+    padding-left: 107px;
+    padding-right: 107px;
   }
 }
 @media screen and (min-width: 1200px) {
