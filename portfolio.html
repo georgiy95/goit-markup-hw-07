@@ -21,7 +21,7 @@
     <header class="header">
       <div class="container header-cntnr">
         <nav class="header-cntnr">
-          <a class="header-logo link" href="./index.html"
+          <a class="header-logo link tablet" href="./index.html"
             >Web<span class="logo-studio">Studio</span></a
           >
           <ul class="hdr list">
@@ -29,7 +29,7 @@
               <a class="header-studio link" href="./index.html">Studio</a>
             </li>
             <li class="header-studio">
-              <a class="header-studio link pf mbp" href="./portfolio.html"
+              <a class="header-studio link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
@@ -38,13 +38,15 @@
             </li>
           </ul>
         </nav>
+
         <button class="button-mobile-menu" type="button" data-menu-open>
           <svg width="32" height="22" class="button-mobile-menu-icon">
             <use href="./images/modal-form.svg#icon-burger"></use>
           </svg>
         </button>
+
         <address class="address-list">
-          <ul class="address list">
+          <ul class="address list nav-laptop">
             <li class="address-item">
               <a href="mailto:info@devstudio.com" class="address link"
                 >info@devstudio.com</a
@@ -58,6 +60,7 @@
           </ul>
         </address>
       </div>
+      <!------------------------------------------------------ mobile-menu ---------------------------------------------------->
       <div class="mobile-menu-container is-hidden" data-menu>
         <div>
           <button class="mobile-close-btn" type="button" data-menu-close>
@@ -376,5 +379,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
