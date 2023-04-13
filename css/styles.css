@@ -1500,12 +1500,6 @@ ul {
   }
 }
 
-@media screen and (min-width: 320px) {
-  .customers-item {
-    flex-basis: calc((100% - 48px) / 1);
-  }
-}
-
 .features {
   padding-top: 48px;
   padding-bottom: 48px;
